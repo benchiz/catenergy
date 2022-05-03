@@ -1,0 +1,53 @@
+.program {
+    position: relative;
+    & img {
+        position: absolute;
+        top: 0;
+        left: 37%;
+    }
+}
+
+.program__block {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    & .program__block-title {
+        padding-top: 114px;
+        max-width: 414px;
+        padding-bottom: 40px;
+    }
+
+    & .program__block-phrase {
+        font-family: inherit;
+        font-size: 20px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #000000;
+        padding-bottom: 52px;
+    }
+
+    & a {
+        color: #fff;
+        text-decoration: none;
+        background: #68B738;
+        cursor: pointer;
+        padding: 14px 26px;
+        width: 244px;
+        font-family: inherit;
+        font-size: 20px;
+        line-height: 22px;
+        text-transform: uppercase;
+        &:hover {
+            transition: 0.3s ease;
+            opacity: 0.8;
+        }
+    }
+}
+
+.title {
+    font-family: inherit;
+    font-size: 60px;
+    line-height: 62px;
+    color: #000000;
+}
